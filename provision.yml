@@ -1,0 +1,11 @@
+---
+-   name: Install Docker
+    hosts: test
+    remote_user: vagrant
+    become: yes
+    become_method: sudo
+    vars_files:
+      - group_vars/docker
+    tasks:
+      - include: tasks/main.yml
+
