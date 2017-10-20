@@ -10,4 +10,4 @@ Install Docker on CentOS 7 using vagrant environment and ansible tool
 
 ### Usage
 
-ansible-playbook provision.yml
+$ ansible-playbook provision.yml
